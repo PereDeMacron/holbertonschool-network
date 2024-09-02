@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+=======
+#!/usr/bin/env bash
+#displays listening ports
+sudo netstat -pl
+>>>>>>> 7b80945f755ef85121307b3ead14135e0d1b23ef
