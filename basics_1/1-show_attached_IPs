@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#script affiche tout les ipv4
 
-ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
