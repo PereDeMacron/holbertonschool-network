@@ -1,7 +1,3 @@
 #!/bin/bash
 
-if command -v ss > /dev/null; then
-    ss -tunlp
-else
-    sudo netstat -tunlp
-fi
+netstat -an -p tcp
