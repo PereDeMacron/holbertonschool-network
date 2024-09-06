@@ -1,3 +1,3 @@
-#!/usr/bin/envbash
+#!/usr/bin/env bash
 #script qui echo les ports
 netstat -an -p tcp
