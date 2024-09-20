@@ -1,0 +1,28 @@
+What Happens When You Type https://www.google.com in Your Browser and Press Enter?
+
+DNS Request:
+    Browser looks up the IP address for 'www.google.com'. If it’s not in the cache, it asks DNS servers to find it.
+
+TCP/IP Connection:
+    Browser uses TCP to establish a connection with Google through a "three-way handshake" to make sure both sides are ready to communicate.
+
+Firewall Check:
+    Firewalls (on your device and Google’s servers) check your request to ensure it’s safe and block harmful traffic.
+
+HTTPS/SSL Encryption:
+    Since using https://, connection is encrypted using SSL/TLS to keep data secure between user and Google.
+
+Load Balancer:
+    Google use a load balancer to distribute traffic across many servers, ensuring fast and reliable responses.
+
+Web Server:
+    The request reaches a Google web server, which sends back static files like HTML and CSS.
+
+application Server:
+    If dynamic content is needed (like search results), the request goes to an application server that processes the request.
+
+Database:
+    The application server might query a database to get information, like search results.
+
+Response:
+    The web page is sent back, encrypted again, and your browser displays the page.
